@@ -31,7 +31,7 @@ RUN addgroup zabbix && \
     apk update && \
     apk add ${APK_FLAGS_PERSISTANT} \
             supervisor \
-            bash \
+            bash curl \
             mariadb-client-libs \
             mariadb-client \
             fping \
